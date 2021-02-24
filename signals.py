@@ -135,7 +135,7 @@ class signalConnections(PreprocessDataset):
 
         ui.clas_rf_max_depth_label_86_slider.valueChanged.connect(
             lambda: self.update_label_from_slider_change(ui.clas_rf_max_depth_label_86_slider.value(),
-                                                         ui.label_9))
+                                                         ui.rf_max_depth_label_86))
 
         ui.clas_rf_nb_estimators_label_89_slider.valueChanged.connect(
             lambda: self.update_label_from_slider_change(ui.clas_rf_nb_estimators_label_89_slider.value(),

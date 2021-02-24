@@ -20,7 +20,7 @@ def get_rf_scikit_model_params(ui, is_regression):
         # min_samples_split = ui.label_90.text()#.setText(_translate("MainWindow", "min_samples_split"))
 
         max_features =  str(ui.clas_rf_max_features_comboBox_label_85.currentText())       ##.setItemText(2, _translate("MainWindow", "log2"))
-        max_depth = int(ui.label_9.text())  #setText(_translate("MainWindow", "Max Depth"))
+        max_depth = int(ui.rf_max_depth_label_86.text())  #setText(_translate("MainWindow", "Max Depth"))
         criterion     = ui.clas_rf_criterion_label_88.currentText()#setText(_translate("MainWindow", "Criterion"))
         n_estimators = int(ui.clas_rf_nb_estimators_label_89.text()) #setText(_translate("MainWindow", "Number of Estimators"))
 
